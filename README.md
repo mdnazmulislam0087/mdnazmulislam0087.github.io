@@ -11,12 +11,22 @@ Professional portfolio + dynamic blog platform for Md Nazmul Islam.
 - Admin dashboard for blog management (`admin-dashboard.html`)
 - Admin content manager for Home/About/Research/Contact/Blog page text
 - Create, edit, delete, publish/unpublish posts
+- Post date picker (published date shown publicly)
+- Blog scope support in editor (`Personal` / `Technical`)
+- Past Posts tab for editing existing posts quickly
 - Image uploads for cover and inline blog images
+- Multiple cover images per post with reorder (drag/drop)
+- Post cover auto-slider on `post.html` when multiple covers are present
 - Markdown-based authoring with safe rendering
+- Live post preview in right-side editor panel
+- Auto-generate short excerpt (first lines of content)
+- Auto-generate tags from title/excerpt/content
 - Supabase-backed authentication, database, and storage
 - SEO setup: canonical tags, Open Graph/Twitter metadata, schema JSON-LD
 - Search indexing assets: `robots.txt`, `sitemap.xml`, `manifest.webmanifest`
 - Automated GitHub Pages deployment workflow (`.github/workflows/deploy-pages.yml`)
+- Home page latest blog auto-carousel (up to 5 recent posts)
+- Blog page filters: text search + scope + year + month
 
 ## Stack
 
@@ -81,6 +91,17 @@ python -m http.server 8080
 ```
 
 Then open `http://localhost:8080`.
+
+## GitHub Pages deploy (quick)
+
+1. Push this repository to GitHub.
+2. In GitHub: `Settings` -> `Pages` -> set source to `GitHub Actions`.
+3. Ensure workflow exists: `.github/workflows/deploy-pages.yml`.
+4. Push to `main` branch (or workflow target branch).
+5. Wait for Actions to finish, then open your Pages URL.
+6. If using custom domain:
+   - Copy `CNAME.example` to `CNAME` and set your domain.
+   - Update DNS records at your domain provider.
 
 ## Admin workflow
 
