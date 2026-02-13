@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="ogTitle ogDesc">
+  <title id="ogTitle">Md Nazmul Islam - Robotics and Healthcare AI</title>
+  <desc id="ogDesc">Professional website preview card for Md Nazmul Islam.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d3b66"/>
+      <stop offset="1" stop-color="#113f6e"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d3b66"/>
+      <stop offset="1" stop-color="#c27a36"/>
+    </linearGradient>
+    <radialGradient id="a" cx="0.15" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="0.95" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="#c27a36" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#c27a36" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#a)"/>
+  <rect width="1200" height="630" fill="url(#b)"/>
+
+  <rect x="78" y="78" width="170" height="170" rx="46" fill="#f7fbff" opacity="0.14"/>
+  <rect x="92" y="92" width="142" height="142" rx="38" fill="url(#mark)"/>
+  <path d="M120 200V124h24l35 49v-49h25v76h-23l-36-52v52z" fill="#f7fbff"/>
+  <path d="M208 124h-19v76h19c21 0 32-13 32-38s-11-38-32-38zm-6 57v-38h6c8 0 14 6 14 19s-6 19-14 19z" fill="#f2e6d7"/>
+
+  <text x="280" y="230" fill="#f7fbff" font-family="Space Grotesk, Arial, sans-serif" font-size="76" font-weight="700">
+    Md Nazmul Islam
+  </text>
+  <text x="280" y="300" fill="#d8e5f2" font-family="Manrope, Arial, sans-serif" font-size="38" font-weight="600">
+    Robotics, Mechatronics, and Healthcare AI Research
+  </text>
+  <text x="280" y="360" fill="#f0d6b9" font-family="Manrope, Arial, sans-serif" font-size="31" font-weight="600">
+    Research Portfolio + Dynamic Blog + Professional Insights
+  </text>
+
+  <rect x="280" y="406" width="520" height="2" fill="#f8e0c4" opacity="0.8"/>
+  <text x="280" y="465" fill="#dbe8f5" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="500">
+    Kent State University | Intelligent Medical Robotics
+  </text>
+</svg>

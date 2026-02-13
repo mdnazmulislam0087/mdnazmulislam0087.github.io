@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">Placeholder panel for personal profile photo.</desc>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d7e8f2"/>
+      <stop offset="100%" stop-color="#b8d1df"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="900" fill="url(#g)"/>
+  <circle cx="700" cy="360" r="120" fill="#8eaec0"/>
+  <rect x="450" y="520" width="500" height="220" rx="120" fill="#8eaec0"/>
+  <text x="700" y="820" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#2d4f63">
+    Add assets/profile.jpg
+  </text>
+</svg>

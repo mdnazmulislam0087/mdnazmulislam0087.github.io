@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Nazmul N Logo</title>
+  <desc id="logoDesc">A single-letter N monogram inside a rounded square.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d3b66"/>
+      <stop offset="1" stop-color="#c27a36"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="204" height="204" rx="56" fill="url(#g1)"/>
+  <path d="M64 176V64h38l52 75V64h36v112h-34L100 97v79z" fill="#f7fbff"/>
+</svg>

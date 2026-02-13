@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nazmul | Blog</title>
+  <meta name="description" content="Research notes, reflections, and technical writing by Md Nazmul Islam." />
+  <meta name="theme-color" content="#0d3b66" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <link rel="canonical" href="https://mdnazmulislam0087.github.io/blog.html" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="manifest" href="manifest.webmanifest" />
+
+  <meta property="og:title" content="Blog | Md Nazmul Islam" />
+  <meta property="og:description" content="Dynamic blog with research notes and long-form posts by Md Nazmul Islam." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mdnazmulislam0087.github.io/blog.html" />
+  <meta property="og:image" content="https://mdnazmulislam0087.github.io/assets/og-cover.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Blog | Md Nazmul Islam" />
+  <meta name="twitter:description" content="Dynamic blog with research notes and long-form posts by Md Nazmul Islam." />
+  <meta name="twitter:image" content="https://mdnazmulislam0087.github.io/assets/og-cover.svg" />
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "Md Nazmul Islam Blog",
+      "url": "https://mdnazmulislam0087.github.io/blog.html",
+      "publisher": {
+        "@type": "Person",
+        "name": "Md Nazmul Islam"
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="blog.html">
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Primary">
+      <a class="brand" href="index.html">
+        <img class="brand-mark" src="assets/logo-mark.svg" alt="" aria-hidden="true" />
+        <span class="brand-text">Md Nazmul Islam</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a class="admin-link" href="admin-login.html">Admin</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero wrap reveal">
+      <p class="eyebrow" data-cms-key="blog.hero.eyebrow">Blog</p>
+      <h1 data-cms-key="blog.hero.title">Stories, Notes, and Technical Reflections</h1>
+      <p class="lead" data-cms-key="blog.hero.lead">
+        Research updates, technical notes, and practical reflections from ongoing work.
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="section reveal">
+      <div class="panel">
+        <div class="search-bar blog-search-bar">
+          <input id="blog-search" type="search" placeholder="Search by title, excerpt, or tag..." aria-label="Search posts" data-cms-key="blog.search.placeholder" data-cms-attr="placeholder" />
+          <select id="blog-scope-filter" aria-label="Filter by scope">
+            <option value="all">Scope: All</option>
+            <option value="personal">Scope: Personal</option>
+            <option value="technical">Scope: Technical</option>
+          </select>
+          <select id="blog-year-filter" aria-label="Filter by year">
+            <option value="all">Year: All</option>
+          </select>
+          <select id="blog-month-filter" aria-label="Filter by month">
+            <option value="all">Month: All</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <button id="clear-search" class="btn btn-ghost" type="button">Clear</button>
+        </div>
+        <p id="blog-status" class="note">Loading posts...</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div id="blog-post-grid" class="blog-grid">
+        <article class="card">
+          <p class="meta">Loading posts...</p>
+        </article>
+      </div>
+      <div id="blog-empty" class="post-empty hidden">No published posts found for this search.</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+            <div class="footer-bar">
+        <p class="footer-copy">&copy; <span id="current-year"></span> Md Nazmul Islam</p>
+        <div class="footer-contact-content" data-cms-key="contact.content.body" data-cms-render="markdown">
+          Reach out via <a href="contact.html">Contact</a>.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script type="module" src="js/page-content.js"></script>
+  <script type="module" src="js/blog-list.js"></script>
+</body>
+</html>

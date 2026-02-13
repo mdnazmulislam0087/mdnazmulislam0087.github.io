@@ -1,0 +1,17 @@
+{
+  "name": "Md Nazmul Islam",
+  "short_name": "Nazmul",
+  "description": "Professional website and research portfolio of Md Nazmul Islam.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#0d3b66",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
