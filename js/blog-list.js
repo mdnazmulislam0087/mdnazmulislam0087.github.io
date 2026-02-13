@@ -103,7 +103,7 @@ function postCardTemplate(post) {
     <article class="card">
       ${cover}
       <p class="meta">${escapeHtml(formatDate(post.published_at || post.created_at))} | ${escapeHtml(readTime)}</p>
-      <h3>${escapeHtml(post.title)}</h3>
+      <h3><a class="card-title-link" href="post.html?slug=${encodeURIComponent(post.slug)}">${escapeHtml(post.title)}</a></h3>
       <p>${excerpt}</p>
       <div class="tag-list">
         ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}

@@ -819,6 +819,16 @@ main {
   font-size: 1.16rem;
 }
 
+.card-title-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-title-link:hover {
+  color: #0b3e69;
+  text-decoration: underline;
+}
+
 .card p {
   margin-bottom: 0;
 }
